@@ -15,8 +15,8 @@ import requests
 chromedriver_path = 'C:/Users/roni58625/.cache/selenium/chromedriver/win64/91.0.4472.101/chromedriver.exe'
 
 # Telegram bot credentials
-bot_token = "7510799179:AAFmEiH1gRpEVatpSdAWMIyEboksOBQrOJc"  # Replace with your bot token
-chat_id = "1072173910"  # Replace with your chat ID
+bot_token = "**********"  # Replace with your bot token
+chat_id = "*************"  # Replace with your chat ID
 
 # Function to send a message via Telegram
 def send_telegram_message(new_password, old_password, formatted_date, last_updated):
