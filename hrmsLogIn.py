@@ -64,8 +64,8 @@ def update_excel(new_password, excel_file):
 def send_email(new_password, old_password, update_time):
     try:
         # Email configuration
-        sender_email = "rahatuzzaman2000@gmail.com"
-        recipient_email = "die.r&i_designer7@waltonbd.com"
+        sender_email = "(*****************@gmail.com"
+        recipient_email = "***************************"
         subject = "Password Updated"
         
         # Create the email body
@@ -87,7 +87,7 @@ def send_email(new_password, old_password, update_time):
         # Connect to the SMTP server and send the email
         with smtplib.SMTP("smtp.gmail.com", 587) as server:
             server.starttls()  # Upgrade the connection to secure
-            server.login(sender_email, "gqck wxrq wmaq fxck")  # Use your App Password here
+            server.login(sender_email, "*****************")  # Use your App Password here
             server.sendmail(sender_email, recipient_email, message.as_string())
             print("Email sent successfully.")
 
